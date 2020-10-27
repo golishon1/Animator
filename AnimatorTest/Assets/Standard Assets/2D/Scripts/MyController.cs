@@ -2,15 +2,14 @@
 
 public class MyController : MonoBehaviour
 {
+    private readonly int _jump = Animator.StringToHash("Jump");
+    private readonly int _crunch = Animator.StringToHash("Crunch");
+    
     [SerializeField] private float _speed = 5f;
     
     private Animator _animator;
-
     private bool _isCrunch;
-
-    private readonly int _jump = Animator.StringToHash("Jump");
     private Rigidbody2D _rigidbody;
-
     private Vector2 _startScale;
 
     private void Start()
@@ -56,6 +55,6 @@ public class MyController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftControl)) _isCrunch = true;
         if (Input.GetKeyUp(KeyCode.LeftControl)) _isCrunch = false;
-        _animator.SetBool("Crunch", _isCrunch);
+        _animator.SetBool(_crunch, _isCrunch);
     }
 }
