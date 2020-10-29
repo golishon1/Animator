@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets._2D
@@ -32,6 +34,14 @@ namespace UnityStandardAssets._2D
             // Pass all parameters to the character control script.
             m_Character.Move(h, crouch, m_Jump);
             m_Jump = false;
+        }
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Bullet"))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
     }
 }

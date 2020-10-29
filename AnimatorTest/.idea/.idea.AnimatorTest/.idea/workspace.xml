@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -29,6 +32,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LayerAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/2D/Scripts/MyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -36,6 +44,16 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/2D/Scripts/MyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/RandomAnimBlend.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LayerAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/testtt.cs" />
+        <option value="$PROJECT_DIR$/Assets/MoveChangeColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveChangeColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603789221027</updated>
-      <workItem from="1603789227545" duration="2290000" />
+      <workItem from="1603789227545" duration="8955000" />
     </task>
     <servers />
   </component>
@@ -103,9 +121,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="282" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1603790684446">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="457" y="282" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1603792653697">
+      <screen x="0" y="23" width="1440" height="794" />
     </state>
+    <state x="457" y="282" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.23.1440.794@0.23.1440.794" timestamp="1603792653697" />
     <state x="457" y="282" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.23.1440.795@0.23.1440.795" timestamp="1603790684446" />
   </component>
 </project>

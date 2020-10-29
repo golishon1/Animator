@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 #pragma warning disable 649
@@ -10,6 +11,7 @@ namespace UnityStandardAssets._2D
         private const float
             k_CeilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
 
+        [SerializeField] private GameObject _camera;
         [SerializeField] private float m_MaxSpeed = 10f; // The fastest the player can travel in the x axis.
         [SerializeField] private float m_JumpForce = 400f; // Amount of force added when the player jumps.
 
@@ -35,6 +37,12 @@ namespace UnityStandardAssets._2D
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
         }
 
+        private void Update()
+        {
+            var pos = transform.position;
+            pos.z = -10f;
+            _camera.transform.position = pos;
+        }
 
         private void FixedUpdate()
         {
